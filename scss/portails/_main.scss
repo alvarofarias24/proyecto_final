@@ -30,14 +30,14 @@
 
  .main-nosotros{
     h1{ 
-        background-color:black;
+        background-color: $colormain;
         text-align: center;
         color: $blanco;
         font-size: 50px;
         padding: 10px;
     }
     .section-nosotros-1{
-        background-color:green;
+        background-color: $colormain;
         display: block;
         width: 100%;
         padding: 30px;

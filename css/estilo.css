@@ -121,14 +121,14 @@
 
 /* MAIN - NOSOTROS*/
 .main-nosotros h1 {
-  background-color: black;
+  background-color: #3d3838;
   text-align: center;
   color: #fff;
   font-size: 50px;
   padding: 10px; }
 
 .main-nosotros .section-nosotros-1 {
-  background-color: green;
+  background-color: #3d3838;
   display: block;
   width: 100%;
   padding: 30px; }
