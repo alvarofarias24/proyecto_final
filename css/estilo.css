@@ -1,0 +1,292 @@
+/* body */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* FOOTER */
+.footer {
+  display: flex;
+  background-color: #d8b3b3; }
+  .footer .redes_sociales {
+    background: #d8b3b3;
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px; }
+  .footer .derechos {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 25px; }
+  .footer .redes_sociales a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: black; }
+  .footer .redes_sociales a:hover {
+    color: #fff;
+    font-size: 30px;
+    transition: all .3s linear; }
+
+/* FOOTER RESPONSIVE */
+@media (max-width: 685px) {
+  .footer {
+    display: block; }
+  .redes_sociales {
+    display: flex;
+    margin: auto;
+    padding: 10px; }
+  .derechos {
+    display: flex;
+    margin: auto;
+    padding: 10px; } }
+
+/* HADER */
+.header {
+  display: flex; }
+  .header nav {
+    background-color: #d8b3b3;
+    width: 100%;
+    height: 100px; }
+  .header nav img {
+    height: 80px;
+    margin-left: 30px;
+    margin-top: 10px; }
+  .header nav ul {
+    float: right; }
+  .header nav ul li {
+    display: inline-block;
+    line-height: 90px;
+    margin: 0 15px;
+    font-size: 20px; }
+  .header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold; }
+  .header nav ul li a:hover {
+    color: #fff;
+    font-size: 30px;
+    transition: all .3s linear; }
+
+.botoncheck {
+  font-size: 35px;
+  color: #fff;
+  float: right;
+  line-height: 90px;
+  cursor: pointer;
+  margin-right: 40px;
+  display: none; }
+
+#check {
+  display: none; }
+
+@media (max-width: 800px) {
+  .botoncheck {
+    display: block;
+    margin-right: 10px; }
+  ul {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 100px;
+    left: -100%;
+    text-align: center;
+    z-index: 1000;
+    background: #000; }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px; }
+  nav ul li a {
+    font-size: 20px;
+    color: #fff; }
+  #check:checked ~ ul {
+    left: 0; } }
+
+/* MAIN - INDEX*/
+.main-index {
+  background-color: #3d3838;
+  display: block; }
+  .main-index h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding: 10px; }
+  .main-index .section-index {
+    text-align: center;
+    width: 100%; }
+  .main-index .section-index img {
+    width: 40%;
+    margin-top: 30px; }
+
+/* MAIN - NOSOTROS*/
+.main-nosotros h1 {
+  background-color: #3d3838;
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  padding: 10px; }
+
+.main-nosotros .section-nosotros-1 {
+  background-color: #3d3838;
+  display: block;
+  width: 100%;
+  padding: 30px; }
+  .main-nosotros .section-nosotros-1 p {
+    font-size: 20px;
+    color: white;
+    text-align: justify; }
+
+.main-nosotros .section-nosotros-2 {
+  background-color: #3d3838;
+  width: 100%;
+  text-align: center; }
+  .main-nosotros .section-nosotros-2 img {
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 20px; }
+
+.main-nosotros .section-nosotros-3 {
+  background-color: #3d3838;
+  text-align: end;
+  text-decoration: none;
+  color: black; }
+  .main-nosotros .section-nosotros-3 a {
+    text-decoration: none;
+    color: black; }
+    .main-nosotros .section-nosotros-3 a:hover {
+      color: #fff;
+      font-size: 30px;
+      transition: all .3s linear; }
+
+/* MAIN - PRODUCTOS */
+.main-productos {
+  background-color: #3d3838;
+  display: block; }
+  .main-productos h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding: 10px; }
+  .main-productos .imagenes-productos-1 {
+    width: 100%;
+    text-align: center; }
+    .main-productos .imagenes-productos-1 img {
+      margin-left: 30px; }
+  .main-productos .imagenes-productos-2 {
+    width: 100%;
+    text-align: center; }
+    .main-productos .imagenes-productos-2 img {
+      margin-top: 30px;
+      margin-left: 40px; }
+
+/* MAIN - VARIEDAD */
+.main-variedad {
+  background-color: #3d3838; }
+  .main-variedad h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    padding: 10px; }
+
+.columna_1 {
+  text-align: center;
+  color: #fff; }
+  .columna_1 .row {
+    width: 100%;
+    padding: 40px;
+    text-decoration: none;
+    color: #fff; }
+  .columna_1 .col:hover {
+    color: black;
+    font-size: 30px;
+    transition: all .3s linear; }
+
+.columna_2 {
+  text-align: center;
+  color: #fff; }
+  .columna_2 .row {
+    width: 100%;
+    padding: 40px;
+    text-decoration: none;
+    color: #fff; }
+  .columna_2 .col:hover {
+    color: black;
+    font-size: 30px;
+    transition: all .3s linear; }
+
+.columna_3 {
+  text-align: center;
+  color: #fff; }
+  .columna_3 .row {
+    width: 100%;
+    padding: 40px;
+    text-decoration: none;
+    color: #fff; }
+  .columna_3 .col:hover {
+    color: black;
+    font-size: 30px;
+    transition: all .3s linear; }
+
+.columna_4 {
+  text-align: center;
+  color: #fff; }
+  .columna_4 .row {
+    width: 100%;
+    padding: 40px;
+    text-decoration: none;
+    color: #fff; }
+  .columna_4 .col:hover {
+    color: black;
+    font-size: 30px;
+    transition: all .3s linear; }
+
+.columna_5 {
+  text-align: center;
+  color: #fff; }
+  .columna_5 .row {
+    width: 100%;
+    padding: 40px;
+    text-decoration: none;
+    color: #fff; }
+  .columna_5 .col:hover {
+    color: black;
+    font-size: 30px;
+    transition: all .3s linear; }
+
+/* MAIN - CONTACTOS */
+.main-contactos .titulo_1 {
+  grid-area: titulo;
+  background-color: #3d3838;
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 50px; }
+
+.main-contactos .section_contactos_1 {
+  grid-area: section2;
+  text-align: center;
+  background-color: #3d3838;
+  padding: 50px; }
+
+.main-contactos .section_contactos_2 {
+  grid-area: section1;
+  text-align: center;
+  background-color: #3d3838;
+  color: #fff; }
+  .main-contactos .section_contactos_2 .centrado {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center; }
+  .main-contactos .section_contactos_2 label {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 15px;
+    width: 25%; }
+    .main-contactos .section_contactos_2 label span {
+      font-size: 26px;
+      margin-bottom: 15px; }
+    .main-contactos .section_contactos_2 label input {
+      height: 30px; }

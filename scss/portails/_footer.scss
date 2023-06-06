@@ -1,0 +1,51 @@
+@import "color";
+
+/* FOOTER */
+
+.footer{
+    display: flex;
+    background-color: $colorheaderyfooter;
+    .redes_sociales{
+        background: $colorheaderyfooter;
+        width: 50%;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 30px;
+     }
+    
+     .derechos{
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        font-size: 25px;
+     }
+     
+     .redes_sociales a{
+        text-decoration: none;
+        margin: 0 20px;
+        color: black;
+     }
+    
+     .redes_sociales a:hover{
+        color: $blanco;
+        font-size: 30px;
+        transition: all .3s linear;
+     } 
+ }
+ /* FOOTER RESPONSIVE */
+
+ @media (max-width: 685px){
+    .footer{
+        display: block;
+    }
+    .redes_sociales{
+        display: flex;
+        margin: auto;
+        padding: 10px;
+    }
+    .derechos{
+        display: flex;
+        margin: auto;
+        padding: 10px;
+    }
+ }
