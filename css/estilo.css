@@ -60,7 +60,7 @@
     margin: 0 15px;
     font-size: 20px; }
   .header nav ul li a {
-    color: black;
+    color: #fff;
     text-decoration: none;
     font-weight: bold; }
   .header nav ul li a:hover {
@@ -192,9 +192,8 @@
     text-decoration: none;
     color: #fff; }
   .columna_1 .col:hover {
-    color: black;
-    font-size: 30px;
-    transition: all .3s linear; }
+    color: #d8b3b3;
+    font-size: 30px; }
 
 .columna_2 {
   text-align: center;
@@ -205,9 +204,8 @@
     text-decoration: none;
     color: #fff; }
   .columna_2 .col:hover {
-    color: black;
-    font-size: 30px;
-    transition: all .3s linear; }
+    color: #d8b3b3;
+    font-size: 30px; }
 
 .columna_3 {
   text-align: center;
@@ -218,9 +216,8 @@
     text-decoration: none;
     color: #fff; }
   .columna_3 .col:hover {
-    color: black;
-    font-size: 30px;
-    transition: all .3s linear; }
+    color: #d8b3b3;
+    font-size: 30px; }
 
 .columna_4 {
   text-align: center;
@@ -231,9 +228,8 @@
     text-decoration: none;
     color: #fff; }
   .columna_4 .col:hover {
-    color: black;
-    font-size: 30px;
-    transition: all .3s linear; }
+    color: #d8b3b3;
+    font-size: 30px; }
 
 .columna_5 {
   text-align: center;
@@ -244,9 +240,8 @@
     text-decoration: none;
     color: #fff; }
   .columna_5 .col:hover {
-    color: black;
-    font-size: 30px;
-    transition: all .3s linear; }
+    color: #d8b3b3;
+    font-size: 30px; }
 
 /* MAIN - CONTACTOS */
 .main-contactos .titulo_1 {
