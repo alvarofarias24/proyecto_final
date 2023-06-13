@@ -64,7 +64,7 @@
     text-decoration: none;
     font-weight: bold; }
   .header nav ul li a:hover {
-    color: #fff;
+    color: black;
     font-size: 30px;
     transition: all .3s linear; }
 
