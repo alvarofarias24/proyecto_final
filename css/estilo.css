@@ -162,17 +162,18 @@
     color: #fff;
     font-size: 50px;
     padding: 10px; }
-  .main-productos .imagenes-productos-1 {
-    width: 100%;
-    text-align: center; }
-    .main-productos .imagenes-productos-1 img {
-      margin-left: 30px; }
-  .main-productos .imagenes-productos-2 {
-    width: 100%;
-    text-align: center; }
-    .main-productos .imagenes-productos-2 img {
-      margin-top: 30px;
-      margin-left: 40px; }
+  .main-productos .imagenes-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .main-productos .imagenes-productos img {
+      width: 400px;
+      height: 350px;
+      opacity: 0.5;
+      border: double #d8b3b3 3px; }
+    .main-productos .imagenes-productos img:hover {
+      opacity: 1;
+      border: solid #fff; }
 
 /* MAIN - VARIEDAD */
 .main-variedad {
