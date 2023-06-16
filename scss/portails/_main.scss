@@ -17,6 +17,15 @@
         font-size: 40px;
         padding: 10px;
     }
+    .d-item {
+        height: 680px;
+    }
+
+    .d-img {
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(0.9);
+    }
 
  }
  @media (max-width: 800px) {
@@ -64,7 +73,7 @@
         width: 100%;
         text-align: center;
         img{
-            width: 40%;
+            width: 90%;
             margin-top: 30px;
             margin-left: 20px;
             border: double $colorheaderyfooter 3px;
@@ -86,10 +95,6 @@
         }
     }
  }
- @media (max-width: 800px){
-
- }
-
 
  /* MAIN - PRODUCTOS */
 
@@ -139,12 +144,7 @@
             padding: 40px;
             text-decoration: none;
             color: $blanco;
-        }
-        .col{
-          &:hover{
-            color:$colorheaderyfooter;
-            font-size: 30px;
-          }
+            text-align: justify;
         }
     }
     .columna_2{
@@ -155,12 +155,6 @@
             padding: 40px;
             text-decoration: none;
             color: $blanco;
-        }
-        .col{
-          &:hover{
-            color:$colorheaderyfooter;
-            font-size: 30px;
-          }
         }
     }
     .columna_3{
@@ -173,12 +167,7 @@
             text-decoration: none;
             color: $blanco;
         }
-        .col{
-          &:hover{
-            color:$colorheaderyfooter;
-            font-size: 30px;
-          }
-        }
+       
     }
     .columna_4{
         text-align: center;
@@ -189,14 +178,8 @@
             text-decoration: none;
             color: $blanco;
         }
-        .col{
-          &:hover{
-            color:$colorheaderyfooter;
-            font-size: 30px;
-          }
+        
         }
-        }
-    
     
     .columna_5{
         text-align: center;
@@ -207,12 +190,7 @@
             text-decoration: none;
             color: $blanco;
         }
-        .col{
-          &:hover{
-            color:$colorheaderyfooter;
-            font-size: 30px;
-          }
-        }
+        
         }
 @media (max-width: 800px){
     .main-variedad{
@@ -243,6 +221,10 @@
         text-align: center;
         background-color:$colormain;
         padding: 50px;
+        .contactos_maps{
+            width: 80%;
+            height: 600px;
+        }
     }
 
     .section_contactos_2 { grid-area: section1; 
